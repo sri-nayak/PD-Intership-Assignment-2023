@@ -64,6 +64,7 @@ getData()
       </div>
       </div>
     </div>`)
+    // document.getElementsByClassName("card").style.backgroundImage=`url(${num[i].images[0].url})`
   }
 }
 
