@@ -19,7 +19,7 @@
 .head1 p{
   padding-left:45% ;
 }
-#name{
+#container{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -29,7 +29,7 @@
   /* flex-direction:inherit; */
   background-color: rgb(32, 65, 35);
 }
-.container {
+.card{
   text-align: center;
   margin: 15px;
   display:flexbox;

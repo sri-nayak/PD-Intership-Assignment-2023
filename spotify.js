@@ -14,11 +14,9 @@ async function logIn() {
     body: 'grant_type=client_credentials'
 });
  var dat=await data.json()
- console.log(dat.access_token);
   return dat.access_token;
 }
 var token=logIn()
-console.log(typeof(token));
 const url = `https://api.spotify.com/v1/artists?ids=${artistList}`
 
 
@@ -43,11 +41,11 @@ async function getData(){
 }
 getData()
   function renderData(num){
-    let doc=document.getElementById("name")
+    let doc=document.getElementById("container")
     const data=num
    for(let i in num){
     doc.insertAdjacentHTML('beforeend',
-    `<div class="container">
+    `<div class="card">
       <div class="main">
         <div class="image">
            <img
@@ -66,7 +64,6 @@ getData()
       </div>
       </div>
     </div>`)
-    console.log(num[i])
   }
 }
 
