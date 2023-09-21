@@ -17,6 +17,7 @@
 .head1 p{
   color: aliceblue;
   padding-left:45% ;
+  font-size: 50px;
 }
 #container{
   display: flex;
@@ -34,8 +35,8 @@
   text-align: center;
   margin: 15px;
   display:flexbox;
-  width: 15%;
-  height: 40vh;
+  width: 300px;
+  height: 400px;
   background-color: rgb(23, 133, 62);
   /* width: 300px; */
   /* height: 400px; */
