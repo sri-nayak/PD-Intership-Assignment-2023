@@ -1,0 +1,68 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.card{
+    display: block;
+    flex-flow: column;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+}
+.head{
+    padding: 0%;
+    margin: 0%;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: black
+}
+.head h1{
+    display: inherit;
+    padding: 5px;
+    font-size: larger;
+    color:yellow;
+}
+.body{
+    display: inherit;
+    padding: 0%;
+    margin: 0%;
+    border-bottom: 5px;
+    /* border-radius: 5px; */
+    background-image: url('https://img.freepik.com/free-photo/white-cloud-blue-sky_74190-2381.jpg?w=996&t=st=1695363077~exp=1695363677~hmac=2cd516a0fa134ff344b1b06dc66694357575a982fced5b7ee44f5d1f19dd1edd');
+}
+.search{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    
+}
+#search-box{
+    text-align: center;
+    height: 40px;
+    width: 300px;
+}
+.search input{
+    border-radius: 15px;
+    border: 15px;
+    border-color: black;
+    background-color: aliceblue;
+    margin-top: 15px;
+    justify-content: center;
+    height: 30px;
+    width: 100px;
+}
+.search p{
+    font-size:x-large;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: rgb(4, 11, 17);
+    margin: 25px;
+    visibility: hidden;
+}
